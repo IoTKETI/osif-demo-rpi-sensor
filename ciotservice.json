@@ -1,0 +1,30 @@
+{
+  "service": {
+    "serviceName": "iotweek-demo-button",
+    "versionCode": {
+      "major": 1,
+      "minor": 0,
+      "revision": 5
+    },
+    "creator": "SyncTechno",
+    "openData": {
+      "local": [],
+      "global": [
+        {
+          "name": "iotweek-led-state",
+          "description": "LED State",
+          "template": "LED State value: numeric data; 0: off, 1: Red, 2: Green, 3: Blue"
+        }
+      ]
+    },
+    "serviceDesc": "IoT Week 2018 Demo service"
+  },
+  "databus": {
+    "globalHost": "13.124.60.44",
+    "globalPort": "5701",
+    "localPort": "5701"
+  },
+  "backup": {
+    "globalHost": "dev.synctechno.com"
+  }
+}
