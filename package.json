@@ -16,7 +16,11 @@
   "homepage": "https://bitbucket.org/synctechnoinc/demo-gpio#readme",
   "dependencies": {
     "hazelcast-client": "^0.6.1",
+    "lodash": "^4.17.10",
+    "node-dht-sensor": "0.0.34",
     "onoff": "^1.1.8",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
     "uuid": "^3.3.2"
   }
 }
