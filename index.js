@@ -2,7 +2,7 @@ var sensor = require('node-dht-sensor');
 var request = require('request');
 var OneM2MClient = require('./onem2m.js');
 
-var CiotDatabusClient = require('./lib/ciot.databus.client.js');
+var OSIFClient = require('osif-client').Client;
 
 var dhtSensorPinPHY   = 22;    //  Phy 15, wPi 3, BCM 22
 var SENSOR_TYPE       = 22;   //  22: DHT22 or AM2302, 11: DHT11
@@ -14,7 +14,7 @@ var INTERVAL          = 1000;
 
 var serviceOptions = require('./ciotservice.json');
 var oneM2MOptions = require('./onem2m.json');
-var client1 = new CiotDatabusClient(serviceOptions);
+var client1 = new OSIFClient(serviceOptions);
 var oneM2MClient = new OneM2MClient(oneM2MOptions);
 
 var ledState = LED_OFF;
