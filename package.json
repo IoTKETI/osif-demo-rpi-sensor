@@ -1,0 +1,27 @@
+{
+  "name": "demo-gpio",
+  "version": "1.0.0",
+  "description": "This README would normally document whatever steps are necessary to get your application up and running.",
+  "main": "index.js",
+  "scripts": {
+    "start": "DEBUG=ciot-databus-client node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://thyunkim@bitbucket.org/synctechnoinc/demo-gpio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/synctechnoinc/demo-gpio#readme",
+  "dependencies": {
+    "hazelcast-client": "^0.6.1",
+    "lodash": "^4.17.10",
+    "node-dht-sensor": "0.0.34",
+    "onoff": "^1.1.8",
+    "osif-client": "^1.0.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "uuid": "^3.3.2"
+  }
+}

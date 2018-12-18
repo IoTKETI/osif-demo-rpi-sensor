@@ -1,0 +1,32 @@
+{
+  "service": {
+    "serviceName": "iotweek-demo-sensor",
+    "versionCode": {
+      "major": 1,
+      "minor": 0,
+      "revision": 5
+    },
+    "creator": "SyncTechno",
+    "openData": {
+      "local": [
+        {
+          "name": "iotweek-sensor-value",
+          "description": "Temp, Humidity sensor value",
+          "template": "{'t': 34.2, 'h': 45}: t: celsius, h: percentage"
+        }
+      ],
+      "global": [
+
+      ]
+    },
+    "serviceDesc": "IoT Week 2018 Demo service"
+  },
+  "databus": {
+    "globalHost": "13.124.60.44",
+    "globalPort": "5701",
+    "localPort": "5701"
+  },
+  "backup": {
+    "globalHost": "dev.synctechno.com"
+  }
+}
